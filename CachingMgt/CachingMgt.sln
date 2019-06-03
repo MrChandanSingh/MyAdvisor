@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CachingMgt", "CachingMgt\CachingMgt.csproj", "{CC98E09A-F86A-412D-9D76-227B1560BF79}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CachingMgt.UnitTest", "Test\CachingMgt.UnitTest\CachingMgt.UnitTest.csproj", "{7E613446-CAE3-45CF-8E3D-14A6DC1532CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{CC98E09A-F86A-412D-9D76-227B1560BF79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC98E09A-F86A-412D-9D76-227B1560BF79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC98E09A-F86A-412D-9D76-227B1560BF79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E613446-CAE3-45CF-8E3D-14A6DC1532CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E613446-CAE3-45CF-8E3D-14A6DC1532CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E613446-CAE3-45CF-8E3D-14A6DC1532CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E613446-CAE3-45CF-8E3D-14A6DC1532CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
