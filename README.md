@@ -1,3 +1,7 @@
+
+# MyAdvisor
+Initial setup has been done for caching and to understand how it is working. what are the thing we can do.
+Unity Container has been used for resolving dependency.
 ##[My Learning path]
 This project has been created for learning & practice of good concept and it's implementation.
 Writting a good and understandable example code from day to day learning a new concept. 
@@ -24,3 +28,4 @@ So to resolve above problem, I created "Cache Management" project. A part from a
 Requirement: Create a utility to be used through out the application like ##Export-To-Excel. I have plan to implement a very generic with a very minimum about of logic repetition. 
 Technologies: C#, Net4.5.
 Infrastructure : IIS Server.
+
