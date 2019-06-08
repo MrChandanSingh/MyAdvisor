@@ -7,6 +7,11 @@ namespace Algorithm
     {
         static void Main(string[] args)
         {
+            #region N-Queens Problem(Backtracking)
+            Backtracking backtracking = new Backtracking();
+            backtracking.GetQueensPlacedInMatrix();
+            #endregion
+
             #region Get fibonacci series using generic collection.
             var number = 30;
             IEnumerable<int> fibonacciSeries = GetFibonacciSeries(number);
