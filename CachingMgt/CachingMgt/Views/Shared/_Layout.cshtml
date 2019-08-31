@@ -38,5 +38,16 @@
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
+    <script>
+        @functions{
+            public string GetAntiForgeryToken()
+            {
+                string cookieToken, formToken;
+                AntiForgery.GetTokens(null, out cookieToken, out formToken);
+                return cookieToken + "," + formToken;
+            }
+            }
+    </script>
+    <input type="hidden" id="forgeryToken" value="@GetAntiForgeryToken()" />
 </body>
 </html>

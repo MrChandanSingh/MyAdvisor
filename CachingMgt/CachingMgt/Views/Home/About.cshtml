@@ -7,3 +7,25 @@
 <h3>@ViewBag.GuidId</h3>
 
 <p>Use this area to provide additional information.</p>
+<button class="btn btn-primary" id="ajaxBtn">Is Validation working</button>
+
+<script>
+    var AjaxValidation = {};
+    $(document).ready(function () {
+        AjaxValidation.Scripts = {
+            Init: function () {
+                $(document).on("click", "#ajaxBtn", AjaxValidation.Scripts.ValidateAjaxRequestByAddingHeader);
+                $.ajaxSetup({ cache:false });
+            },
+            ValidateAjaxRequestByAddingHeader: function () {
+                $.ajax({
+                    url: "ValidateAjaxRequest/Home",
+                    headers: {
+                        "VerificationToken": $("#forgerToken").val()
+                    }
+                });
+            }
+        }
+        AjaxValidation.Scripts.Init();
+    });
+</script>

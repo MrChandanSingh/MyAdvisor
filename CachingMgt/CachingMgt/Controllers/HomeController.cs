@@ -1,4 +1,5 @@
 ﻿using CachingMgt.Models;
+using CachingMgt.Security;
 using CachingMgt.SessionMgt;
 using System;
 using System.Collections.Generic;
@@ -40,6 +41,13 @@ namespace CachingMgt.Controllers
             ViewBag.Message = "Your contact page.";
 
             return View();
+        }
+
+        [HttpPost]
+        [AjaxAntiForgeryTokenValidation]
+        public ActionResult ValidateAjaxRequest()
+        {
+            return Json(new {b= true }, JsonRequestBehavior.AllowGet);
         }
     }
 }

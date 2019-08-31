@@ -160,6 +160,7 @@
     </Compile>
     <Compile Include="Models\UserInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Security\AjaxAntiForgeryTokenValidation.cs" />
     <Compile Include="SessionMgt\HttpContextFactory.cs" />
     <Compile Include="SessionMgt\IHttpContextFactory.cs" />
     <Compile Include="SessionMgt\IUserSession.cs" />
