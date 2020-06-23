@@ -1,3 +1,10 @@
+# DataStructure 
+Sample code for different concepts in data structure with multiple solutions for one problem.
+A person who is practicing data-structure or new person trying to understand different through examples can look into those solutions. it will help the person for sure.
+----i Will keep updating solution project with new expample for new concept.
+
+
+
 # MyAdvisor
 Initial setup has been done for caching and to understand how it is working. what are the thing we can do.
 Unity Container has been used for resolving dependency.
